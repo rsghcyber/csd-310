@@ -9,12 +9,12 @@
 from pymongo import MongoClient
 
 #Connection string#
-url = "mongodb+srv://admin:<password>@cluster0.ddqvy.mongodb.net/test"
+url = "mongodb+srv://admin:admin@cluster0.ddqvy.mongodb.net/test"
 
 #Connect to MongoDB cluster#
 client = MongoClient(url)
 
-#Connect to pytech database#
+#Connect to pytech database#k
 db = client.pytech
 
 #Show connected collections#
